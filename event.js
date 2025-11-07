@@ -12,7 +12,7 @@ function plus(){
 function minus(){
     val--;
     if(val<=0) document.querySelector('#c').innerText= "min";
-   else{ document.querySelector('#c').style.color="red";
+   else{ document.querySelector('#c').style.color="yellow";
     document.querySelector('#c').textContent= val; 
    }
 }
